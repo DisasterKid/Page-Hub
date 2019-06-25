@@ -1,4 +1,33 @@
 .grid {
     display: grid;
-    background-color: azure;
+    grid-template-columns: .25fr 2fr;
+    background-color: blueviolet;
 }
+
+
+
+.sideBar {
+    background-color: darkgrey;
+    grid-column-start: 1;
+    grid-column-end:  2;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.mainContent {
+
+}
+
+
