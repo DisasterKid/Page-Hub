@@ -41,6 +41,16 @@ li a {
     padding: 0px;
 }
 
+.bottomLink {
+    position: fixed;
+    bottom: 0;
+    width: 7.5%;
+}
+
+li a:hover {
+    background-color: #485167;
+}
+
 .mainContent {
 
 }
